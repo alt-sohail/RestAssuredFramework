@@ -92,3 +92,9 @@
 12:07:24.013 [main] INFO  api.test.StoreTests2 - ********** Order Fetched **********
 12:07:24.018 [main] INFO  api.test.StoreTests2 - ********** Deleting Order **********
 12:07:26.420 [main] INFO  api.test.StoreTests2 - ********** Order Deleted **********
+15:45:43.825 [main] INFO  api.test.StoreTests2 - ********** Creating Order **********
+15:45:49.196 [main] INFO  api.test.StoreTests2 - ********** Order Created**********
+15:45:49.221 [main] INFO  api.test.StoreTests2 - ********** Fetching Order **********
+15:45:52.050 [main] INFO  api.test.StoreTests2 - ********** Order Fetched **********
+15:45:52.056 [main] INFO  api.test.StoreTests2 - ********** Deleting Order **********
+15:45:54.430 [main] INFO  api.test.StoreTests2 - ********** Order Deleted **********
