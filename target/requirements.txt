@@ -1,0 +1,66 @@
+1) Re-usability
+2) Maintainability
+3) Readability
+
+Hybrid Driven
+
+Phases
+---------
+1) Understanding requirement
+	- Functional specification (static)
+	-Swagger
+	
+2) Choose automation tool - Rest Assured Library
+
+3) Design
+
+4) Development
+
+5) Execution + CI
+
+----------------------
+
+Pre-requisites:
+
+Step 1) Create Maven Project
+
+Step 2) Update pom.xml with required dependencies
+
+Step 3) Create project structure
+
+Step 4) Create route.java ---> contains url's
+
+Step 5) Create UserEndPoint.java ---> contains CRUD methods implementations
+
+Step 6) Create test cases
+
+Step 7) Create data driven test
+		- Excel sheet - contains data
+		- ExcelUtility
+		- Dataproviders
+		
+Step 8) Generate extent reports
+		- Extent report utility
+		- testng.xml file
+		
+Step 9) Add logs
+		- log4j2 dependency
+		- log4j2.xml ---> src/test/resource
+		
+Step 10) We can also use .properties file instead of Routes.java
+		-routes.properties
+		
+Step 11) Run test using pom.xml
+		- Add following plugins
+		- maven-compiler-plugin
+		- maven-surefire-plugin
+		
+Step 12) Run test using cmd
+		- Install maven software on windows	
+		- Set path in environment variables
+		
+Step 13) Commit code in local repository (git)
+
+Step 14) Push your code to remote repository (github)
+
+Step 15) Run project in jenkins (from git github)

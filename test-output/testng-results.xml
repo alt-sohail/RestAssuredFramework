@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-19T15:24:50 IST" name="StoreSuite" finished-at="2025-03-19T15:25:02 IST" duration-ms="11606">
+    <groups>
+    </groups>
+    <test started-at="2025-03-19T15:24:50 IST" name="StoreTest" finished-at="2025-03-19T15:25:02 IST" duration-ms="11606">
+      <class name="api.test.StoreTests2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.StoreTests2@477b4cdf]" started-at="2025-03-19T15:24:51 IST" name="setUp" finished-at="2025-03-19T15:24:51 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPostOrder()[pri:1, instance:api.test.StoreTests2@477b4cdf]" started-at="2025-03-19T15:24:51 IST" name="testPostOrder" finished-at="2025-03-19T15:24:57 IST" duration-ms="5390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostOrder -->
+        <test-method signature="testGetOrderById()[pri:2, instance:api.test.StoreTests2@477b4cdf]" started-at="2025-03-19T15:24:57 IST" name="testGetOrderById" finished-at="2025-03-19T15:24:59 IST" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOrderById -->
+        <test-method signature="testDeleteOrderById()[pri:3, instance:api.test.StoreTests2@477b4cdf]" started-at="2025-03-19T15:24:59 IST" name="testDeleteOrderById" finished-at="2025-03-19T15:25:02 IST" duration-ms="2649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteOrderById -->
+      </class> <!-- api.test.StoreTests2 -->
+    </test> <!-- StoreTest -->
+  </suite> <!-- StoreSuite -->
+</testng-results>
